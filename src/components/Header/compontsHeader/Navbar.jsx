@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 export default function Navbar() {
-    const [activeItem, setActiveItem] = useState(null)
+    const [activeItem, setActiveItem] = useState("Home")
 
     const menuItem = [
         {name: "Home", link: "/"},

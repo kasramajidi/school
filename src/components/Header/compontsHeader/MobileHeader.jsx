@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 export default function MobileHeader() {
 
   const [isOpen, setIsOpen] = useState(false)
-  const [activeItem, setActiveItem] = useState(null)
+  const [activeItem, setActiveItem] = useState("Home")
 
   const munuItem = [
     {name: "Home", link: "/"},
