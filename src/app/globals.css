@@ -7,6 +7,11 @@
   font-family: Outfit;
   src: url("../../public/fonts/Outfit/Outfit-Regular.ttf");
 }
+
+@font-face {
+  font-family: Raleway;
+  src: url("../../public/fonts/Raleway/Raleway-Regular.ttf");
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
