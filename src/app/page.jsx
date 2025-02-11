@@ -2,6 +2,7 @@
 import HeroSectionHome from "@/components/HeroSection/home/HeroSectionHome";
 import Benefits from "@/components/Benefits/Benefits";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import Navigate from "@/components/Navigate/Navigate";
 export default function Home() {
   return (
     <>
@@ -9,6 +10,7 @@ export default function Home() {
           <HeroSectionHome/>
           <Benefits/>
           <Testimonials/>
+          <Navigate/>
       </main>
     </>
   );

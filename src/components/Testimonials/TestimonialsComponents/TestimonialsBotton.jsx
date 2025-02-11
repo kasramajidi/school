@@ -20,19 +20,24 @@ export default function TestimonialsBotton() {
 
     ]
     return (
-        <div className='flex sm:flex-col lg:flex-row items-center gap-[50px]  justify-between pt-[100px] flex-wrap'>
-            {
-                user.map((item, index) => (
-                    <div key={index} className='flex flex-col justify-center h-[432px] items-center rounded-lg border-[2px] border-[#262626] border-solid bg-white p-[50px] gap-[30px] shadow-[6px_6px_0px_2px_#1E1E1E] lg:max-w-sm sm:max-w-xs'>
-                        <div className='flex flex-col items-center justify-center gap-[12px]'>
-                            <Image src={item.img} width={80} height={80} alt='prof' />
-                            <span className='text-[24px] font-semibold text-[#333333]'>{item.name}</span>
+        <>
+            <div className='flex sm:flex-col lg:flex-row items-center gap-[50px]  justify-between pt-[100px] flex-wrap'>
+                {
+                    
+                    user.map((item, index) => (
+                        <div key={index} className='flex flex-col justify-center h-[432px] items-center rounded-lg border-[2px] border-[#262626] border-solid bg-white lg:p-[50px] sm:py-[55px] sm:px-[20px] gap-[30px] shadow-[6px_6px_0px_2px_#1E1E1E] lg:max-w-sm sm:max-w-xs'>
+                            <div className='flex flex-col items-center justify-center gap-[12px]'>
+                                <Image src={item.img} width={80} height={80} alt='prof' />
+                                <span className='text-[24px] font-semibold text-[#333333]'>{item.name}</span>
+                            </div>
+                            <Image src={"/img/Testimonials/Container.png"} width={140} height={24} alt='score' />
+                            <p className='font-medium text-[20px] text-[#333333] leading-[30px]'>{item.des}</p>
                         </div>
-                        <Image src={"/img/Testimonials/Container.png"} width={140} height={24} alt='score' />
-                        <p className='font-medium text-[20px] text-[#333333] leading-[30px]'>{item.des}</p>
-                    </div>
-                ))
-            }
-        </div>
+                    ))
+                }
+            </div>
+                
+        </>
+
     )
 }
