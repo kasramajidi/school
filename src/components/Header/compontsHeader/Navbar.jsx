@@ -10,7 +10,6 @@ export default function Navbar() {
         {name: "Academics", link: "/pages/Academics"},
         {name: "Admissions", link: "/pages/Admissions"},
         {name: "StudentLife", link: "/pages/StudentLife"},
-        {name: "Contact", link: "/pages/Contact"},
     ]
     return (
         <div className='lg:block sm:hidden'>
@@ -27,7 +26,7 @@ export default function Navbar() {
                         </Link>
                     ))
                 }
-                <Link href={"/"}>
+                <Link href={"/pages/Contact"}>
                     <li className={`py-[28px] px-[34px] border-r-[1px] border-l-[1px] border-[#262626] bg-[#FFAE80] rounded-r-lg ${activeItem === "contact" ? "bg-[#FFEFE5]" : "bg-[#FFAE80]"
                         }`}
                         onClick={() => setActiveItem("contact")}
