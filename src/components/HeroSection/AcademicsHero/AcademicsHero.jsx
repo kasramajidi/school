@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function AcademicsHero() {
     return (
         <section className='relative rounded-xl lg:py-[150px] sm:py-[50px]  lg:px-[120px] sm:px-[30px] lg:gap-[50px] sm:gap-[10px] flex lg:flex-nowrap sm:flex-wrap items-center justify-center border-[2px] border-[#262626] border-solid bg-[#FFFFFF] shadow-[8px_8px_0px_1px_#1E1E1E]'>
-            <Image src={"/img/AcademicsImg/AcademicsHero/Abstract Design.png"} width={200} height={200} alt='hero-section' className='absolute left-0 top-0 sm:w-[100px] sm:h-[100px]' />
+            <Image src={"/img/AcademicsImg/AcademicsHero/Abstract Design.png"} width={200} height={200} alt='hero-section' className='absolute left-0 top-0 lg:w-[200px] lg:h-[200px] sm:w-[100px] sm:h-[100px]' />
             <div className='flex flex-col sm:text-center lg:text-start gap-[14px]'>
                 <Link href={"/"}>
                     <button className='self-start text-[18px] text-center text-[#333333] font-medium rounded-lg border-[2px] border-[#262626] bg-white lg:py-[10px] sm:py-[8px] lg:px-[20px] sm:px-[16px] hover:bg-[#FF8D4D]'>Academics</button>                

@@ -2,6 +2,7 @@ import React from 'react'
 import AcademicsHero from '@/components/HeroSection/AcademicsHero/AcademicsHero'
 import AcademicsFeatures from '@/components/Academics/AcademicsFeatures/AcademicsFeatures'
 import Learn from '@/components/Academics/Learn/Learn'
+import Rooms from '@/components/Academics/Rooms/Rooms'
 export default function page() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function page() {
       <main className="lg:px-[168px] lg:pt-[80px] lg:pb-[140px] sm:px-[4px] sm:pt-[50px] sm:pb-[79px]">
         <AcademicsFeatures />
         <Learn/>
+        <Rooms/>
       </main>
     </>
   )
